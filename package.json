@@ -1,0 +1,29 @@
+{
+  "name": "myapp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "~1.18.2",
+    "cookie-parser": "^1.4.3",
+    "debug": "~2.6.9",
+    "express": "^4.15.5",
+    "jade": "^1.11.0",
+    "length": "0.0.1",
+    "mongo": "^0.1.0",
+    "mongodb": "^3.0.4",
+    "mongoose": "^5.0.9",
+    "morgan": "^1.9.0",
+    "pug": "^2.0.0-rc.4",
+    "serve-favicon": "^2.4.5",
+    "stellar-base": "^0.7.7",
+    "stellar-sdk": "^0.8.0",
+    "urijs": "^1.19.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.1"
+  }
+}
